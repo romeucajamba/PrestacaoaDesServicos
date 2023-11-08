@@ -1,0 +1,85 @@
+.objectiveSession {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 70%;
+    width: 100%;
+    height: 90%;
+    background-color: #222;
+}
+
+.ifoContainer {
+    background-color: #fff;
+    width: 50rem;
+    height: 40rem;
+}
+
+.tracejadoUp {
+    position: relative;
+    width: 90px;
+    height: 6px;
+    margin-top: 50px;
+    left: 3%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.h2 {
+    margin-top: 20px;
+    font-size: 3rem;
+    margin-left: 2%;
+    color: #222;
+    font-weight: bold;
+}
+
+.p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-left: 2%;
+}
+
+.p span {
+    font-size: 1.2rem;
+    color: #F76680;
+}
+
+.information {
+    margin-top: 6.5%;
+    color: #57007B;
+    font-size: 1.25rem;
+    margin-left: 2%;
+}
+
+.imgContainer {
+    background-color: #fff;
+    width: 50rem;
+    top: 10%;
+    left: 70%;
+    width: 50rem;
+    height: 40rem;
+}
+
+.img {
+    left: 51%;
+    width: 40rem;
+    height: 46rem;
+}
+
+.tracejadoDown {
+    position: absolute;
+    width: 90px;
+    height: 6px;
+    margin-top: 700px;
+    left: 3%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.ballon {
+    position: absolute;
+    top: 126%;
+    left: 75%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}

@@ -1,0 +1,134 @@
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 360%;
+    background: #eeee;
+    display: block;
+    justify-content: center;
+}
+
+.section h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+/*
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+   .swiper_slide {
+       text-align: center;
+       font-size: 18px;
+       background: #fff;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .swiper-slide img {
+       display: block;
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+*/
+h1 {
+    color: #1A202C;
+}
+
+.services_container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 45px;
+}
+
+.services_data {
+    width: 20rem;
+    height: 15rem;
+    background-color: #FAFAFA;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 4px 6px rgba(174, 190, 205, 3);
+    padding: 2rem 1rem;
+    position: initial;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.services_data h3 {
+    left: -40%;
+}
+
+.services_title {
+    margin-bottom: var(--mb-2);
+    color: #2D3748;
+}
+
+.services_title {
+    font-size: var(--h3-font-size);
+    text-align: justify;
+}
+
+.services_data:hover {
+    border: 2px solid;
+    border-color: #F76680;
+    cursor: pointer;
+    color: var(--purple);
+}
+
+.webtitle {
+    margin-bottom: var(--mb-4);
+    margin-left: -80%;
+    margin-top: 13%;
+}
+
+.mobile {
+    margin-bottom: var(--mb-4);
+    margin-left: -80%;
+    margin-top: 13%;
+}
+
+.database {
+    margin-bottom: var(--mb-4);
+    margin-left: -50%;
+    margin-top: 13%;
+}
+
+.design {
+    margin-bottom: var(--mb-4);
+    margin-left: -80%;
+    margin-top: 13%;
+}
+
+.desktop {
+    margin-bottom: var(--mb-4);
+    margin-left: -70%;
+    margin-top: 13%;
+
+}
+
+.services_data:hover {
+    border-color: 2px solid #F76680;
+    transform: translateY(-.5rem);
+    box-shadow: 0 6px 8px rgba(174, 190, 205, 4);
+}
+
+.icon {
+    position: relative;
+    left: -40%;
+    top: 10%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--white-200);
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: var(--purple);
+    padding: 8px;
+}

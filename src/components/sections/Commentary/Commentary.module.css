@@ -1,0 +1,21 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    /*O meu gride faz com que tenha duas colunas*/
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        /*O meu gride faz com que tenha uma coluna e as paginas, sessões ou componentes estejam um embaixo do outro*/
+        grid-template-columns: 1fr;
+    }
+}

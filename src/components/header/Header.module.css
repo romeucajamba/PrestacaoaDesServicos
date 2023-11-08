@@ -1,0 +1,74 @@
+.headerr {
+    width: 100%;
+    height: 50%;
+    background-color: var(--with-300);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 7px -5px;
+    /*position: fixed;*/
+}
+
+.Yna {
+    color: var(--purple);
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-left: 5rem;
+}
+
+.nko {
+    color: var(--pink);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    margin-right: 80px;
+}
+
+.links li {
+    font-size: 1.3rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--blue);
+    margin: 20px;
+    list-style: none;
+}
+
+.links li a:hover {
+    background: linear-gradient(to top, var(--rose) 0%, var(--pink) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.ativo {
+    background: linear-gradient(to top, var(--rose) 0%, var(--pink) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent
+}
+
+.listalinks a {
+    text-decoration: none;
+}
+
+.buttomcontainer {
+    width: 8rem;
+    height: 3rem;
+    margin-right: 5rem;
+
+}
+
+.buttomcontainer button[type=submit] {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, var(--purple) 10%, var(--blue) 100%);
+    border: 0;
+    font-size: 16px;
+    border-radius: 5px;
+    color: var(--white-200);
+}

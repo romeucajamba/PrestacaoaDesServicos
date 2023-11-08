@@ -1,0 +1,75 @@
+:root {
+    --rose: #FB52FC;
+    --pink: #F76680;
+    --purple: #57007B;
+    --with-300: #FFFF;
+    /* outros */
+    --gray-with: #A0AEC0;
+    --white-100: #fff;
+    --white-200: #FAFAFA;
+    --with-400: #F1F1F1;
+    /* fundo */
+    --dark-300: #1A1A1A;
+    --yellow: #FFEF5E;
+    --gradient: #F7936F;
+    --dark-200: #121214;
+    --dark-100: #202024;
+    --gray-100: #EEEE;
+    --gray-300: #D1D1D1;
+    --blue: #7078FE;
+    --blue2: #7050FE;
+    --green-200: #67E9F1;
+    --green-500: #24E795;
+    --blue-100: #68DBF2;
+    --blue-300: #509CF5;
+
+    /* Tamanhos*/
+
+    --mb-1: .5rem;
+    --mb-2: 1.5rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2.5rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+    --mb-7: 2rem;
+    --mb-8: 1rem;
+
+    /*Outra cores*/
+    --white1: #ffff;
+    --gray-2: #e1e1e6;
+    --gray-3: #c4c4cc;
+    --gray-4: #8d8d99;
+    --gray-5: #00875f;
+    --gray-6: #323238;
+    --gray-7: #29292e;
+    --gray-8: #202024;
+    --gray-9: #121214;
+    --red-5: #f75A68;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--gray-500);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--gray-900);
+    -webkit-font-smoothing: antialiased;
+    /*Usamos quando não fazemos uso de fonts que não são padrão do sistema*/
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}

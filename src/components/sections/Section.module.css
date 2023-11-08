@@ -1,0 +1,80 @@
+main {
+    margin-left: 5%;
+    position: relative;
+    width: 1330px;
+    height: 550px;
+    /* overflow: hidden;*/
+}
+
+.onSection {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 20%;
+    left: 0;
+}
+
+.h1 {
+    font-size: 3rem;
+    color: #222;
+    font-weight: 500;
+}
+
+.h1 span {
+    background: linear-gradient(to top, var(--rose) 0%, var(--pink) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent
+}
+
+.h1 #span {
+    background: linear-gradient(to top, var(--rose) 0%, var(--pink) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent
+}
+
+.p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-left: -1%;
+
+}
+
+.button {
+    background: var(--blue);
+    border: 0;
+    padding: 20px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 4px;
+    color: var(--white-200);
+    margin-top: 20px;
+    transition: 1s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.button:hover {
+    background: var(--blue2);
+    cursor: pointer;
+}
+
+img {
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    width: 37rem;
+}
+
+.bola {
+    position: absolute;
+    top: 145%;
+    left: 35%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}

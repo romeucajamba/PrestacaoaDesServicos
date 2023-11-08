@@ -1,0 +1,18 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        /*O meu gride faz com que tenha uma coluna e as paginas, sessões ou componentes estejam um embaixo do outro*/
+        grid-template-columns: 1fr;
+    }
+}
+
+

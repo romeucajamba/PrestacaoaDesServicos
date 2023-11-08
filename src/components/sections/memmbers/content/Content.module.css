@@ -1,0 +1,18 @@
+.contentDev {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.coumanUp {
+    position: absolute;
+    width: 1rem;
+    top: 30%;
+    margin-left: -30%;
+}
+
+.coumanDown {
+    position: absolute;
+    width: 1rem;
+    top: 45%;
+    margin-left: 38%;
+}

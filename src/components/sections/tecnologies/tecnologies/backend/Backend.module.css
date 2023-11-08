@@ -1,0 +1,11 @@
+.imageContainer {
+    width: 100%;
+    height: 190%;
+    margin-top: 5%;
+}
+
+.imageContent {
+    position: relative;
+    width: 70rem;
+    margin-left: -40%;
+}

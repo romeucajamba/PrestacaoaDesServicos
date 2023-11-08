@@ -1,0 +1,64 @@
+.container {
+    position: inherit;
+    width: 100%;
+    height: 70%;
+    top: 910%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-100);
+}
+
+.imgContainer {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    left: -1%;
+}
+
+.imgAvatar {
+    position: relative;
+    width: 25rem;
+    margin-left: -30%;
+    margin-top: 22%;
+}
+
+.loginContainer {
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+
+.loginContainer h3 {
+    font-size: 2rem;
+}
+
+.loginContainer h3>span {
+    color: #F76680;
+}
+
+.loginContainer p {
+    font-size: 1.2rem;
+}
+
+.loginContainer h3,
+p {
+    text-align: center;
+}
+
+.buttonComment {
+    background-color: #fff;
+    border: none;
+    width: 15rem;
+    height: 3.5rem;
+    margin-left: 35%;
+    margin-top: 15%;
+    border-radius: 4px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    border-top: 1px solid #F76680;
+    border-bottom: 1px solid #57007B;
+    border-left: 1px solid #57007B;
+    border-right: 1px solid #57007B;
+}

@@ -1,0 +1,414 @@
+.conatiner {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 102%;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--with-300);
+}
+
+.tracejadoUp {
+    position: absolute;
+    display: block;
+    width: 90px;
+    margin-top: 20px;
+    height: 6px;
+    margin-left: 47%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.h1 {
+    position: absolute;
+    display: block;
+    margin-top: 50px;
+    margin-left: 36%;
+    text-align: center;
+    color: #766565;
+    font-size: 2rem;
+}
+
+.firstConatiner {
+    width: 100%;
+    height: 100%;
+}
+
+.firsParagraph {
+    width: 50%;
+    height: 100%;
+}
+
+.about {
+    color: #1A202C;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 50px;
+    position: relative;
+    margin-left: -38%;
+}
+
+.understand {
+    color: #2D3748;
+    font-size: 1.3rem;
+    margin-left: 3%;
+}
+
+.idea {
+    color: #2D3748;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    margin-left: 3%;
+    text-align: justify;
+}
+
+.idea span {
+    color: #F76680;
+}
+
+.comment {
+    color: #F76680;
+    margin-top: 75px;
+    margin-left: 6%;
+}
+
+.border {
+    position: absolute;
+    display: block;
+    width: 3px;
+    margin-top: 35px;
+    height: 90px;
+    left: 20px;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.commentaryArea {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+}
+
+.phorograph {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 42px;
+    margin-left: -45%;
+}
+
+.author {
+    margin-top: -14%;
+    margin-left: 13%;
+}
+
+.author p {
+    margin-top: 1%;
+    font-size: 0.870rem;
+    color: #1A202C;
+    display: flex;
+    width: 110px;
+}
+
+.author .developer {
+    margin-top: -8%;
+    color: #718096;
+    font-size: 0.750rem;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.solutionsPhoto {
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 25px;
+    width: 38rem;
+    height: 31rem;
+}
+
+.secondContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.secondImgContainer {
+    width: 50%;
+    height: 100%;
+}
+
+.programmerPhoto {
+    position: relative;
+    width: 36rem;
+    height: 30rem;
+    top: 5%;
+    margin-left: -49%;
+}
+
+.secondParagraph {
+    width: 50%;
+    height: 100%;
+}
+
+.becomeReal {
+    margin-top: 9%;
+    font-size: 2rem;
+    left: -36%;
+    position: relative;
+}
+
+.teamWork {
+    font-size: 1.2rem;
+    color: #2D3748;
+    margin-top: 6%;
+    left: -4%;
+    position: relative;
+}
+
+.objective {
+    position: relative;
+    font-size: 1.2rem;
+    color: #2D3748;
+    margin-top: 6%;
+    left: -4%;
+}
+
+.objective span {
+    color: #F76680;
+}
+
+.borderRight {
+    position: relative;
+    display: block;
+    width: 3px;
+    margin-top: 35px;
+    height: 90px;
+    left: 6%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.commentRight {
+    position: relative;
+    color: #F76680;
+    top: -17%;
+    margin-left: 8%;
+}
+
+.commentaryAreaRight {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+}
+
+.phorographRight {
+    width: 2rem;
+    height: 2rem;
+    top: -70%;
+    margin-left: -39%;
+}
+
+
+.authorRight {
+    margin-top: -65%;
+    margin-left: 14%;
+    width: 12rem;
+    height: 3rem;
+}
+
+.authorRight p {
+    font-size: 0.870rem;
+    color: #1A202C;
+    margin-left: 13%;
+    margin-top: 1%;
+}
+
+.authorRight .developerRight {
+    margin-top: -8%;
+    color: #718096;
+    font-size: 0.750rem;
+    margin-left: 13%;
+}
+
+
+.firdConatiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.firdParagraph {
+    width: 100%;
+    height: 100%;
+}
+
+
+.aboutDown {
+    color: #1A202C;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 50px;
+    position: relative;
+    margin-left: -46%;
+}
+
+.understandDown {
+    color: #2D3748;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-left: 1%;
+}
+
+.ideaDown {
+    color: #2D3748;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    margin-left: 1%;
+}
+
+.ideaDown span {
+    color: #F76680;
+}
+
+.borderDown {
+    position: relative;
+    display: block;
+    width: 3px;
+    top: 50px;
+    height: 90px;
+    left: 6px;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.commentDown {
+    position: relative;
+    color: #F76680;
+    top: -8%;
+    margin-left: 3%;
+}
+
+.commentaryAreaDown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+    left: 1%;
+    top: -8%;
+}
+
+.phorographDown {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 50px;
+    margin-left: -51%;
+}
+
+.authorDown {
+    margin-top: -10%;
+    margin-left: 10px;
+    width: 12rem;
+    height: 3rem;
+}
+
+.authorDown p {
+    font-size: 0.870rem;
+    color: #1A202C;
+    margin-left: 13%;
+    margin-top: 1%;
+    width: 110px;
+}
+
+.authorDown .developerDown {
+    margin-top: -7%;
+    color: #718096;
+    font-size: 0.750rem;
+    margin-left: 12%;
+}
+
+.firdImgConatiner {
+    width: 100%;
+    height: 100%;
+}
+
+.team {
+    position: relative;
+    margin-top: 22%;
+    margin-left: -45%;
+    width: 38rem;
+    height: 31rem;
+}
+
+.ballonRose {
+    position: absolute;
+    top: 126%;
+    left: 72%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.ballonOrange {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, var(--yellow) 10%, var(--gradient) 100%);
+}
+
+.ballonRoseSecond {
+    position: absolute;
+    top: 140%;
+    left: 41%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.ballonOrangeSecond {
+    position: absolute;
+    top: 225%;
+    left: 8%;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, var(--yellow) 10%, var(--gradient) 100%);
+}
+
+
+.ballonRoseDown {
+    position: absolute;
+    top: 231%;
+    left: 75%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, var(--pink) 10%, var(--purple) 100%);
+}
+
+.ballonOrangeDown {
+    position: absolute;
+    top: 317%;
+    left: 51%;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, var(--yellow) 10%, var(--gradient) 100%);
+}
